@@ -1,0 +1,79 @@
+.home__main {
+  background: rgb(154, 90, 228);
+  background: linear-gradient(
+    210deg,
+    rgba(154, 90, 228, 1) 54%,
+    rgba(255, 98, 151, 1) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.home__body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8em 0;
+  /* position: absolute; */
+}
+.home__bodyLeft {
+  flex: 0.6;
+}
+.main__heading {
+  width: 100%;
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Georama", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+.main__heading > .MuiSvgIcon-root {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  font-size: 67px;
+  padding: 20px;
+  margin-bottom: -20px !important;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.main__typo {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Georama", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: -29px;
+}
+.main__typo__para {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+.main__btn {
+  border-radius: 40px;
+  padding: 20px;
+  border: none;
+  width: 12em;
+  color: #ffffff;
+  /* background: rgb(123, 86, 205);
+  background: linear-gradient(
+    27deg,
+    rgba(123, 86, 205, 1) 22%,
+    rgba(252, 70, 107, 1) 100%
+    ); */
+  background: rgb(252, 70, 107);
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main__btn:hover {
+  transition: 0.2s all ease-in-out !important;
+  background: rgb(253, 40, 82);
+}
+.home__bodyRight > img {
+  width: 350px;
+}
