@@ -20,7 +20,7 @@ const Navbar = () => {
     navbarClasses.push("scrolled");
   }
   return (
-    <div className={scrolled ? "navbar active" : "navbar"}>
+    <div className={scrolled ? "navbar navbar-active" : "navbar"}>
       <div className="navbar__brand">
         <Link to="/">
           <img src={Logo} alt="" className="navbar__brand__img" />
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="navbar__collapse">
         <ul className="navbar__nav">
           <li className="nav__item">
-            <Link to="" className="nav__link">
+            <Link to="" className="nav__link active">
               Home
             </Link>
           </li>

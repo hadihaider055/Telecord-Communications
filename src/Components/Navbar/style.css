@@ -31,9 +31,12 @@
   color: #ff6297;
   transition: 0.3s all ease-in-out;
 }
-.active {
+.navbar-active {
   background-color: #2c343b;
   position: fixed;
   transition: 0.4s all ease-in-out;
   padding: 10px 60px;
+}
+.active {
+  color: #ff6297;
 }

@@ -1,0 +1,82 @@
+.hero__main {
+  margin: 0 auto;
+  margin-top: 7em;
+  width: 92vw;
+  padding: 20px 0;
+}
+
+.hero__head {
+  margin: 0 auto;
+}
+.hero__boundary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 autos;
+}
+
+.hero__title {
+  text-align: center;
+  background-color: #e8e3f3;
+  color: #9a5ae4;
+  border-radius: 2em;
+  width: 13%;
+  height: 2em;
+  text-transform: uppercase;
+  font-family: "Georama", sans-serif;
+  font-weight: 600;
+  align-content: center;
+  align-self: center;
+  padding-top: 7px;
+}
+.hero__subtitle {
+  text-align: center;
+  font-family: "Georama", sans-serif;
+  font-weight: 400;
+  font-size: 2.7em;
+  margin-top: -0.1em;
+  color: #262f3c;
+  letter-spacing: 1px;
+}
+.hero__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 1em;
+  height: 100%;
+  padding-bottom: 20px;
+}
+.hero__card {
+  margin: 0 auto;
+  padding: 3em 0px;
+  text-align: center;
+  width: 24em;
+  box-shadow: 0px 0px 20px #6868683f;
+  border-radius: 0.7em;
+  margin-top: 1.5em;
+  margin-left: 20px;
+  background-color: #ffffff;
+}
+.card__heading > i {
+  font-size: 4em;
+  color: #9d79df;
+}
+.card__title {
+  color: #404854;
+  font-family: "Georama", sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+}
+.card__content {
+  width: 90%;
+  margin: 0 auto;
+}
+.card__text {
+  color: #818894;
+  font-size: 1.14em;
+  font-family: "Georama", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}

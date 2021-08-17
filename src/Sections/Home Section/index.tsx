@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../Components/Navbar";
 import HomeScreen from "../../Components/HomeScreen";
 import "./style.css";
@@ -8,7 +8,7 @@ import Decor1 from "../../Assets/bg-decor-1.png";
 import Decor2 from "../../Assets/bg-decor-2.png";
 import Decor3 from "../../Assets/bg-decor-3.png";
 
-const HomePage = () => {
+const HomeSection = () => {
   return (
     <div className="home__main">
       <div className="home__header">
@@ -36,4 +36,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HomeSection;

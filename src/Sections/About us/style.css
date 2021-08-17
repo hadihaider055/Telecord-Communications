@@ -1,0 +1,116 @@
+.about__main {
+  background-color: #ffffff;
+  margin-top: 3em;
+  padding: 1em 0;
+  margin: 0 auto;
+}
+.about__section {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 50px;
+}
+.gatheringImg {
+  border-radius: 10px;
+  transform: scale(1.15);
+  transition: 0.8s all ease-in-out;
+  filter: brightness(0.6);
+  box-shadow: 0px 0px 40px #6868689a;
+  margin: 0 auto;
+}
+.gatheringImg:hover {
+  transform: scale(1);
+  transition: 0.8s all ease-in-out;
+}
+.about__mainLeft {
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px #686868ad;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.about__mainLeft > .MuiSvgIcon-root {
+  color: #ffffff;
+  border: 1px solid #ffffff75;
+  border-radius: 7px;
+  font-size: 77px;
+  padding: 22px;
+  cursor: pointer;
+  position: absolute;
+  transition: 0.4s all ease-in-out;
+}
+.about__mainRight {
+  flex: 1;
+  padding: 0px 40px 0px 60px;
+}
+.about__span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 0 autos;
+}
+.about__title {
+  text-align: center;
+  background-color: #e8e3f3;
+  color: #9a5ae4;
+  border-radius: 2em;
+  text-transform: uppercase;
+  font-family: "Georama", sans-serif;
+  font-weight: 600;
+  align-content: center;
+  align-self: center;
+  padding: 0.2em 1.4em;
+}
+.about__subtitle {
+  font-family: "Georama", sans-serif;
+  font-weight: 400;
+  font-size: 2.4em;
+  margin-top: -0.1em;
+  color: #262f3c;
+  letter-spacing: 1px;
+}
+.about__tag {
+  color: #262f3c;
+  font-family: "Georama", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  font-size: 16px;
+}
+.about__paraDiv {
+  display: flex;
+}
+.fa-quote-left {
+  width: 40%;
+  font-size: 50px;
+  color: #9a5ae4;
+  padding: 40px 20px 40px 0;
+  margin-right: 40px;
+}
+.about_info {
+  color: #8491a5;
+  font-family: "Georama", sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.about__brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76vw;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.about__brand > img {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+.about__brand > img:hover {
+  opacity: 1;
+  transition: 0.3s all ease-in-out;
+}
