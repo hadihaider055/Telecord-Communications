@@ -7,7 +7,6 @@ import Investor2 from "../../Assets/investor-2.png";
 import Investor3 from "../../Assets/investor-3.png";
 import Investor4 from "../../Assets/investor-4.png";
 import Investor5 from "../../Assets/investor-5.png";
-
 const AboutSection = () => {
   return (
     <div className="about__main">

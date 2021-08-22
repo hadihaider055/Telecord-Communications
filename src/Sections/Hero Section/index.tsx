@@ -1,7 +1,6 @@
 import React from "react";
 import { hero__card } from "./hero";
 import "./style.css";
-
 const HeroSection = () => {
   return (
     <div className="hero__main">

@@ -9,11 +9,11 @@
   margin: 0 auto;
 }
 .hero__boundary {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 autos;
 }
 
 .hero__title {
@@ -21,14 +21,12 @@
   background-color: #e8e3f3;
   color: #9a5ae4;
   border-radius: 2em;
-  width: 13%;
-  height: 2em;
   text-transform: uppercase;
   font-family: "Georama", sans-serif;
   font-weight: 600;
   align-content: center;
   align-self: center;
-  padding-top: 7px;
+  padding: 0.6em 1em;
 }
 .hero__subtitle {
   text-align: center;
@@ -48,14 +46,15 @@
   padding-bottom: 20px;
 }
 .hero__card {
-  margin: 0 auto;
   padding: 3em 0px;
   text-align: center;
   width: 24em;
   box-shadow: 0px 0px 20px #6868683f;
   border-radius: 0.7em;
-  margin-top: 1.5em;
   margin-left: 20px;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   background-color: #ffffff;
 }
 .card__heading > i {

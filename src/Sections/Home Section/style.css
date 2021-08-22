@@ -36,7 +36,7 @@
   margin-bottom: -20px !important;
   margin-right: 20px;
   cursor: pointer;
-  /* position: absolute; */
+  position: relative;
 }
 .main__typo {
   color: #ffffff;
@@ -63,6 +63,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   cursor: pointer;
+  position: absolute;
 }
 .main__btn:hover {
   transition: 0.2s all ease-in-out !important;

@@ -1,0 +1,37 @@
+.faq__section {
+  background-color: #ffffff;
+  padding: 3em 1em;
+}
+.faq__div {
+  margin: 0 auto;
+}
+.faq__head {
+}
+.faq__span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.faq__title {
+  text-align: center;
+  background-color: #e8e3f3;
+  color: #9a5ae4;
+  border-radius: 2em;
+  text-transform: uppercase;
+  font-family: "Georama", sans-serif;
+  font-weight: 600;
+  align-content: center;
+  align-self: center;
+  padding: 0.2em 1.4em;
+}
+.faq__subtitle {
+  font-family: "Georama", sans-serif;
+  font-weight: 400;
+  font-size: 2.4em;
+  margin-top: -0.1em;
+  color: #262f3c;
+  letter-spacing: 1px;
+  text-align: center;
+}

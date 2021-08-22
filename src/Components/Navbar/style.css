@@ -36,6 +36,7 @@
   position: fixed;
   transition: 0.4s all ease-in-out;
   padding: 10px 60px;
+  z-index: 999;
 }
 .active {
   color: #ff6297;

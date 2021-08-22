@@ -4,9 +4,6 @@ import HomeScreen from "../../Components/HomeScreen";
 import "./style.css";
 import CImage from "../../Assets/CImage.png";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";
-import Decor1 from "../../Assets/bg-decor-1.png";
-import Decor2 from "../../Assets/bg-decor-2.png";
-import Decor3 from "../../Assets/bg-decor-3.png";
 
 const HomeSection = () => {
   return (

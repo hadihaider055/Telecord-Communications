@@ -4,15 +4,17 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import HomePage from "./Pages/Home";
 import LandingPage from "./Pages/Landing Page";
+import ScrollToTop from "./Components/Scroll to top";
 function App() {
   return (
-    <Router>
-      <Switch>
-        <div className="App">
+    <div className="App">
+      <Router>
+        <ScrollToTop />
+        <Switch>
           <Route exact path="/" component={LandingPage} />
-        </div>
-      </Switch>
-    </Router>
+        </Switch>
+      </Router>
+    </div>
   );
 }
 
